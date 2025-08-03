@@ -1,0 +1,67 @@
+Chat Prompt Template:
+A chat prompt template is a structured format for creating conversational AI interactions. It typically includes:
+
+1. System Message:
+- Sets the AI's role, personality, and behavior
+- Defines core instructions and constraints
+- Example: "You are a helpful AI assistant..."
+
+2. User Message Format:
+- How user inputs should be structured
+- Any required fields or parameters
+- Example: "User: {user_input}"
+
+3. Assistant Response Format:
+- How the AI should format its responses
+- Any required sections or components
+- Example: "Assistant: {response}"
+
+4. Special Instructions:
+- Additional context or requirements
+- Handling specific scenarios
+- Format requirements
+
+5. Examples:
+- Sample exchanges showing proper format
+- Demonstrations of expected behavior
+
+Best Practices:
+- Be clear and specific
+- Include necessary context
+- Define boundaries
+- Use consistent formatting
+- Test with various inputs
+
+
+Chain:
+A chain is a sequence of components that process inputs and produce outputs in a specific order. In the context of LLMs and conversational AI:
+
+1. Basic Structure:
+- Input -> Component 1 -> Component 2 -> ... -> Output
+- Each component performs a specific task
+- Output of one component becomes input for the next
+
+2. Common Chain Types:
+- LLM Chain: Processes input through language model
+- Sequential Chain: Multiple components in sequence
+- Router Chain: Directs input to different paths
+- Transform Chain: Modifies data format
+
+3. Chain Components:
+- Prompts
+- Language Models
+- Memory Systems
+- Tools/Functions
+- Output Parsers
+
+4. Benefits:
+- Modular design
+- Reusable components
+- Complex task handling
+- Structured workflow
+
+5. Use Cases:
+- Multi-step reasoning
+- Document processing
+- Conversation management
+- Task automation
